@@ -7,3 +7,7 @@ form {
 #searchbar {
     border-radius: 25px;
 }
+#asearchbutton {
+    background-color: blue;
+    color: antiquewhite;
+}

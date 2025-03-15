@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         <title>Search</title>
     </head>
     <body>
+        <div class="d-flex flex-row-reverse">
+        <a class="p-2" href="advancedsearch.html">Advanced Search</a>
+        <a class="p-2" href="imagesearch.html">Image Search</a>
+    </div>
         <h1>Google Search</h1>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
+            <p>
+            <input id="searchbar" type="text" name="q">
+        </p>
+        <p>
             <input type="submit" value="Google Search">
+            <input type="submit" value="I am feeling lucky" name="btnI">
+        </p>
         </form>
     </body>
 </html>
